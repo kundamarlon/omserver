@@ -1,0 +1,56 @@
+{
+  "name": "list",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "processed": {
+      "type": "boolean",
+      "default": false
+    },
+    "service": {
+      "type": "string"
+    },
+    "tellerName": {
+      "type": "string"
+    },
+    "tellerStartTime": {
+      "type": "string"
+    },
+    "waitTime": {
+      "type": "number",
+      "default": 5
+      
+    },
+    "tellerFinishTime": {
+      "type": "string"
+    },
+    "serviceTime": {
+      "type": "string"
+    },
+    "startTime": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "feedback": {
+      "type": "string"
+    },
+    "finishTime": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

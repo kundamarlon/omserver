@@ -1,0 +1,33 @@
+{
+  "name": "tellerBooth",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "cardServices": {
+      "type": "string",
+      "default": "InfoDesk"
+    },
+    "deposit": {
+      "type": "string",
+      "default": "InfoDesk"
+    },
+    "withdrawal": {
+      "type": "string",
+      "default": "InfoDesk"
+    },
+    "infoDesk": {
+      "type": "string",
+      "default": "InfoDesk"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
